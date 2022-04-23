@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "Name": "Blood Donate",
+        "Price": 200,
+        "Details": "This is a pre-paid Service.You have to fill up a form for that.After full fill All the requirement this services will be given",
+        "img": "https://i.ibb.co/2KRLbHp/olga-kononenko-z-QEm-EAb-Wp-Y-unsplash.jpg"
+    },
+    {
+        "id": 2,
+        "Name": "Heart-Repair",
+        "Price": 2000,
+        "Details": "This is a pre-paid Service.You have to fill up a form for that.After full fill All the requirement this services will be given",
+        "img": "https://i.ibb.co/ynV2CD2/ali-hajiluyi-Mh-FJNz-D8t4-unsplash.jpg"
+    },
+    {
+        "id": 3,
+        "Name": "Sergary",
+        "Price": 1000,
+        "Details": "This is a pre-paid Service.You have to fill up a form for that.After full fill All the requirement this services will be given",
+        "img": "https://i.ibb.co/pzgwnwx/olga-guryanova-t-MFeat-BSS4s-unsplash.jpg"
+    },
+    {
+        "id": 4,
+        "Name": "ECG",
+        "Price": 500,
+        "Details": "This is a pre-paid Service.You have to fill up a form for that.After full fill All the requirement this services will be given",
+        "img": "https://i.ibb.co/5Wc1pV4/jair-lazaro-0lr-Jo37r6-Nk-unsplash.jpg"
+    },
+    {
+        "id": 5,
+        "Name": "Brain Treatement",
+        "Price": 300,
+        "Details": "This is a pre-paid Service.You have to fill up a form for that.After full fill All the requirement this services will be given",
+        "img": "https://i.ibb.co/HzzQ4kh/jesse-orrico-rm-Wt-VQN5-Rz-U-unsplash.jpg"
+    },
+    {
+        "id": 6,
+        "Price": 200,
+        "Name": "Plastic Sergery",
+        "Details": "This is a pre-paid Service.You have to fill up a form for that.After full fill All the requirement this services will be given",
+        "img": "https://i.ibb.co/RvrfyQg/philippe-spitalier-k-A9901-YPOCk-unsplash.jpg"
+    }
+]

@@ -1,0 +1,18 @@
+.name {
+    font-weight: bolder;
+    font: 1.5em sans-serif;
+
+
+
+}
+
+.navbar {
+
+    border-radius: 15px;
+
+
+}
+
+.Sinout:hover {
+    background-color: aqua;
+}
