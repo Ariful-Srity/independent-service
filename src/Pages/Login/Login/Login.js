@@ -36,7 +36,7 @@ const Login = () => {
     }
 
     if (error) {
-        errorElement = <p className='text-danger'>Error: {error?.message}</p>
+        errorElement = <p className='text-danger'>Hey there is an Error: {error?.message}</p>
     }
 
     const handleSubmit = event => {

@@ -5,7 +5,7 @@ import './About.css';
 const About = () => {
     return (
         <div className="About-container d-flex">
-            <div className="text-white text-center text-container  bg-black p-5 rounded">
+            <div className="text-white text-center text-container  bg-black p-5 rounded ">
                 <h1 className="text-center text-primary">Hello,Welcome to my website</h1>
                 <p>I am Ariful Hasan Ontor.I am a student.I am very serious about my goal for becoming a web developer.
                 </p>
@@ -16,7 +16,7 @@ const About = () => {
 
                 <h4 className="text-h4">Keep me in Your prayers.</h4>
                 <p>Thanks </p>
-
+                <h1 className="text-center text-primary">MD.ARIFUL HASAN ONTOR</h1>
 
             </div>
 
