@@ -11,7 +11,7 @@ import Awards from '../../Awords/Awards';
 
 const Home = () => {
     return (
-        <div>
+        <div className="mt-5">
 
             <div className="banner">
                 <Carousel>
