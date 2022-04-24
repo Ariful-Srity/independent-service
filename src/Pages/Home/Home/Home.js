@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 
-import banner1 from '../../Images/Banner/robina-weermeijer-3KGF9R_0oHs-unsplash.jpg'
+import banner1 from '../../Images/Banner/banner.jpg'
 import banner2 from '../../Images/Banner/hush-naidoo-jade-photography-eKNswc0Qxz8-unsplash.jpg'
 import banner3 from '../../Images/Banner/robina-weermeijer-3KGF9R_0oHs-unsplash.jpg'
 import Services from '../Services/Services';

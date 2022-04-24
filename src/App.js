@@ -16,6 +16,7 @@ import Register from './Pages/Login/Register/Register';
 import About from './Pages/About/About';
 import NotFound from './Pages/Shared/NotFound/NotFound';
 import Blogs from './Pages/Blogs/Blogs';
+import Thanks from './Pages/Thanks/Thanks';
 
 
 
@@ -38,6 +39,7 @@ function App() {
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+        <Route path='/thanks' element={<Thanks></Thanks>}></Route>
         <Route path="/checkout" element={
           <RequireAuth>
             <Checkout></Checkout>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import img1 from '../Images/doctor1.png';
 import img2 from '../Images/doctor2.png';
 import img3 from '../Images/doctor3.png';
@@ -8,6 +9,8 @@ import doctor from '../Images/Female.jpg';
 import './Awards.css'
 
 const Awards = () => {
+
+
     return (
         <div className="bg-primary mt-5">
             <h1 className="text-warning mb-5 mt-5 text-center">Awards And Accolades</h1>
@@ -33,7 +36,7 @@ const Awards = () => {
                 <div className="appoinment-text">
                     <h4 className="text-apponment">Make an Appoinment To Doctor Visit</h4>
                     <div className="form">
-                        <Form >
+                        <Form  >
                             <Form.Group className="mb-3" controlId="formBasicName">
                                 <Form.Control type="name" placeholder="Enter Name" required />
                             </Form.Group>
@@ -46,9 +49,10 @@ const Awards = () => {
                             <Form.Group className="mb-3" controlId="formBasicPassword">
                                 <Form.Control type="date" placeholder="Enter the Date" required />
                             </Form.Group>
-                            <Button variant="warning w-50 mx-auto d-block mb-3" type="submit">
+                            <Link to="/thanks" className="text-decoration-none"><Button variant="warning w-50 mx-auto d-block mb-3" type="submit">
                                 Make An Appoinment
-                            </Button>
+                            </Button></Link>
+
                         </Form>
 
 
