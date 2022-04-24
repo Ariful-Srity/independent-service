@@ -28,7 +28,7 @@ const Service = ({ service }) => {
                     </Card.Text>
                     <h4 >$<span className="text-warning ps-2">{Price}</span></h4>
 
-                    <button onClick={() => navigateToServiceDetails(id)} className='btn btn-primary'>Proceed Checkout</button>
+                    <button onClick={() => navigateToServiceDetails(id)} className='btn btn-primary'> Checkout</button>
 
 
                 </Card.Body>
