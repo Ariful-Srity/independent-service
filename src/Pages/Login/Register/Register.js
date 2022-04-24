@@ -4,6 +4,7 @@ import { useCreateUserWithEmailAndPassword, useUpdateProfile, } from 'react-fire
 import { Link, useNavigate, } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import Loading from '../../Shared/Loading/Loading';
+import GoogleLogin from '../GoogleLogin/GoogleLogin';
 import './Register.css';
 
 const Register = () => {
@@ -65,7 +66,7 @@ const Register = () => {
                     value="Register" />
             </form>
             <p>Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
-
+            <GoogleLogin></GoogleLogin>
         </div>
 
     );
